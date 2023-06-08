@@ -1,0 +1,108 @@
+
+.header {
+  background-color:antiquewhite;
+}
+.logo1 {
+    position: absolute;
+    left: 175px;
+    top: 10px;
+    width: 50px;
+    height: auto;
+}
+
+#muscle-group-map h2 {
+  position: absolute;
+  text-align: center;
+  top: 35px;
+}
+  /* -------Exercise list--------- */
+#muscle-groups {
+    padding: 20px;
+  }
+  
+  #muscle-groups h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .muscle-group {
+    margin-bottom: 20px;
+  }
+  
+  .muscle-group h3 {
+    font-size: 25px;
+    margin-bottom: 5px;
+    background-color:antiquewhite;
+  }
+  
+  .muscle-group ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .muscle-group li {
+    margin-bottom: 5px;
+  }
+
+  .muscle-group p {
+    font-size:20px;
+    margin-left: 10px;
+  }
+
+  .muscle-group p1{
+    font-size:18px;
+    margin-left: 20px;
+  }
+  /* -------Exercise list--------- */
+
+  /* -------Class Schedule--------- */
+table, th, td {
+    border: 1px solid black;
+    padding: 5px;
+    
+}
+th {
+    background-color: #96d4d4;
+}
+td {
+    text-align: center;
+}
+/* -------Class Schedule--------- */
+
+/* -------Contact Us--------- */
+.contact-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .contact-footer .footer-content {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .contact-footer .contact-info {
+    margin-right: 20px;
+  }
+  
+  .contact-footer h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-footer p {
+    margin: 5px 0;
+  }
+  
+  .contact-footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .contact-footer a:hover {
+    text-decoration: underline;
+  }
+/* -------Contact Us--------- */

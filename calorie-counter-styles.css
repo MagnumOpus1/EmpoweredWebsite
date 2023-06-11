@@ -1,0 +1,43 @@
+/* ---------this is the body--------- */
+body {
+    
+}
+/* ---------this is the body--------- */
+.card {
+
+}
+.card-header {
+    color: black;
+    background-color: antiquewhite;
+}
+.card-body {
+    justify-content:center;
+    padding: 20px;
+    background-color: antiquewhite;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    box-shadow: rgb(38, 55, 77);
+    
+    
+}
+
+.card-body-age {
+    
+}
+.card-body-gender {
+    
+    
+}
+.card-body-height {
+   
+}
+.row h3{
+    display: inline-block;
+    
+}
+input {
+    
+}

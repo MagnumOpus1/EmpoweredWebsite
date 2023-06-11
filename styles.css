@@ -1,19 +1,52 @@
+body {
+  display: block;
+  margin-top: 0;
+  margin-left: 0;
+}
+#pagetop {
+  position: fixed;
+  display: flex;
+  background-color: antiquewhite;
+  width: 100%;
+  top: 0;
+  align-items: center;
+}
+
+#muscleChart {
+  margin-top: 10px;
+  padding-top: 60px;
+}
 
 .header {
   background-color:antiquewhite;
 }
 .logo1 {
     position: absolute;
-    left: 175px;
-    top: 10px;
+    left: 140px;
+    top: 7px;
     width: 50px;
     height: auto;
+}
+nav {
+  color: black;
+}
+nav ul {
+  list-style-type: none;
+  margin-left: 60px;
+}
+nav li{
+  display: inline-block;
+  padding: 10px;
+}
+nav a {
+  color:balck;
+  text-decoration: none;
 }
 
 #muscle-group-map h2 {
   position: absolute;
   text-align: center;
-  top: 35px;
+  top: 100px;
 }
   /* -------Exercise list--------- */
 #muscle-groups {

@@ -8,42 +8,59 @@
 
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <div class="header">
-        <h1>Empowered</h1>
-        <img src="images/Logo_transparent.png"
-             class="logo1">
-    </div>
-    
-    <section id="muscle-group-map">
-        <div style="display: flex; justify-content: center;">
-            <h2>Muscle Group Chart</h2>
-            <!-- https://www.image-map.net/-->
-            <img alt="Muscle Groups" src="images/musclegroups.jpg" style="align-self: center;" usemap="#musclegroupmap" class="musclegroupImage">
-                <map name="musclegroupmap">
-                    <area target="_self" alt="Shoulders" title="Shoulders" href="#Shoulders" coords="41,52,9" shape="circle">
-                    <area target="_self" alt="Shoulders" title="Shoulders" href="#Shoulders" coords="76,51,9" shape="circle">
-                    <area target="_self" alt="Biceps" title="Biceps" href="" coords="133,63,9" shape="circle">
-                    <area target="_self" alt="Biceps" title="Biceps" href="#Biceps" coords="177,65,9" shape="circle">
-                    <area target="_self" alt="Chest" title="Chest" href="#Chest" coords="252,56,16" shape="circle">
-                    <area target="_self" alt="Tibialis" title="Tibialis" href="" coords="335,142,11" shape="circle">
-                    <area target="_self" alt="Tibialis" title="Tibialis" href="" coords="360,143,12" shape="circle">
-                    <area target="_self" alt="Back" title="Back" href="#Back" coords="445,60,23" shape="circle">
-                    <area target="_self" alt="Triceps" title="Triceps" href="#Triceps" coords="520,67,14" shape="circle">
-                    <area target="_self" alt="Triceps" title="Triceps" href="#Triceps" coords="559,66,13" shape="circle">
-                    <area target="_self" alt="Abs" title="Abs" href="#Abs" coords="60,244,18" shape="circle">
-                    <area target="_self" alt="Forearms" title="Forearms" href="" coords="130,249,11" shape="circle">
-                    <area target="_self" alt="Forearms" title="Forearms" href="" coords="181,250,14" shape="circle">
-                    <area target="_self" alt="Quads" title="Quads" href="#Legs" coords="251,280,23" shape="circle">
-                    <area target="_self" alt="Hamstrings" title="Hamstrings" href="#Legs" coords="348,282,21" shape="circle">
-                    <area target="_self" alt="Glutes" title="Glutes" href="#Glutes" coords="443,264,17" shape="circle">
-                    <area target="_self" alt="Calves" title="Calves" href="" coords="526,312,14" shape="circle">
-                    <area target="_self" alt="Calves" title="Calves" href="" coords="553,311,14" shape="circle">
-                </map>
-        </div> 
-    </section>
 
-    <section id="muscle-groups">
+<body>
+    
+    <div id="pagetop">
+        <div class="pagetop-header">
+            <h1>Empowered</h1>
+            <img src="images/Logo_transparent.png"
+                    class="logo1">
+        </div>
+    
+        <nav>
+            <ul>
+                <li><a>Home</a></li>
+                <li><a href="calorie-counter.html">Calorie Counter</a></li>
+                <li><a>Macro Calculator</a></li>
+                <li>About</li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <div id="muscleChart">
+        <h2 style="text-align: center;">Muscle Group Chart</h2>
+    
+            <div id="muscle-group-map">
+                <div style="display: flex; justify-content: center;">
+                    <!-- https://www.image-map.net/-->
+                    <img alt="Muscle Groups" src="images/musclegroups.jpg" style="align-self: center;" usemap="#musclegroupmap" class="musclegroupImage">
+                        <map name="musclegroupmap">
+                            <area target="_self" alt="Shoulders" title="Shoulders" href="#Shoulders" coords="41,52,9" shape="circle">
+                            <area target="_self" alt="Shoulders" title="Shoulders" href="#Shoulders" coords="76,51,9" shape="circle">
+                            <area target="_self" alt="Biceps" title="Biceps" href="" coords="133,63,9" shape="circle">
+                            <area target="_self" alt="Biceps" title="Biceps" href="#Biceps" coords="177,65,9" shape="circle">
+                            <area target="_self" alt="Chest" title="Chest" href="#Chest" coords="252,56,16" shape="circle">
+                            <area target="_self" alt="Tibialis" title="Tibialis" href="" coords="335,142,11" shape="circle">
+                            <area target="_self" alt="Tibialis" title="Tibialis" href="" coords="360,143,12" shape="circle">
+                            <area target="_self" alt="Back" title="Back" href="#Back" coords="445,60,23" shape="circle">
+                            <area target="_self" alt="Triceps" title="Triceps" href="#Triceps" coords="520,67,14" shape="circle">
+                            <area target="_self" alt="Triceps" title="Triceps" href="#Triceps" coords="559,66,13" shape="circle">
+                            <area target="_self" alt="Abs" title="Abs" href="#Abs" coords="60,244,18" shape="circle">
+                            <area target="_self" alt="Forearms" title="Forearms" href="" coords="130,249,11" shape="circle">
+                            <area target="_self" alt="Forearms" title="Forearms" href="" coords="181,250,14" shape="circle">
+                            <area target="_self" alt="Quads" title="Quads" href="#Legs" coords="251,280,23" shape="circle">
+                            <area target="_self" alt="Hamstrings" title="Hamstrings" href="#Legs" coords="348,282,21" shape="circle">
+                            <area target="_self" alt="Glutes" title="Glutes" href="#Glutes" coords="443,264,17" shape="circle">
+                            <area target="_self" alt="Calves" title="Calves" href="" coords="526,312,14" shape="circle">
+                            <area target="_self" alt="Calves" title="Calves" href="" coords="553,311,14" shape="circle">
+                        </map>
+                </div> 
+            </div>
+    </div>
+
+    <div id="muscle-groups">
         <div class="exercise-section-content">
             <h2>Exercise</h2>
                 <div class="muscle-group">
@@ -283,7 +300,7 @@
             </tr>
 
         </table>
-    </section>
+    </div>
     
     <footer class="contact-footer">
         <div class="footer-content">
